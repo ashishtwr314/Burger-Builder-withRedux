@@ -1,0 +1,28 @@
+.ContactForm{
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    margin: 30px auto;
+}
+.ContactForm input{
+    display: block;
+    padding: 5px;
+    width: 400px;
+    margin: 10px auto;
+}
+.ContactForm button{
+    background: none;
+    border: none;
+    color: green;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 5px 10px;
+    cursor: pointer;;
+}
+.customer-input::placeholder{
+    text-transform: capitalize;
+}
+.Error{
+    border: 1px solid red;
+}

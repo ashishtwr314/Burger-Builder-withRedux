@@ -1,0 +1,51 @@
+.AuthForm{
+    display: flex;
+    max-width: 80%;
+    margin: 100px auto;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 919px){
+    .AuthForm{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+}
+
+form{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #E98541;
+
+}
+.form-header{
+    font-size: 20px;
+}
+
+form input:not([type="checkbox"]){
+    padding: 10px 5px;
+    background-color: rgba(214, 112, 46, 0.36);
+    border: 0;
+    width: 300px;
+    color: inherit;
+}
+form .form-group{
+    margin: 10px 0;
+}
+form input::placeholder{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form .btn{
+    background-color: #D6702E;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 100px;
+    margin: 10px 0 !important;
+}
+form .btn:hover{
+    box-shadow: none;
+    transform: none;
+}

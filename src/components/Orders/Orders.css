@@ -1,0 +1,19 @@
+.Order{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px #000;
+    padding: 20px;
+}
+.Ig__detials{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 1px solid #aaa;
+    margin: 0 10px;
+}
+.Order .price{
+    color: #000;
+    text-align: left;
+}

@@ -80,8 +80,8 @@ class BurgerBuilder extends Component {
                 
                 {this.state.modalOpen ?
                     <React.Fragment>
-                        <Backdrop CloseModal={this.CloseModal} />
-                        <Modal ContinuePurchaseHandler={this.ContinuePurchaseHandler} CloseModal={this.CloseModal} ingredients={this.props.ings} price={this.props.totalPrice}></Modal>
+                        <Backdrop CloseModal={this.CloseModal}>  <Modal ContinuePurchaseHandler={this.ContinuePurchaseHandler} CloseModal={this.CloseModal} ingredients={this.props.ings} price={this.props.totalPrice}></Modal> </Backdrop>
+                       
                     </React.Fragment>
                      : null
                 }
